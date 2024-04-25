@@ -14,4 +14,3 @@ jobs:
           echo ${{github.event}}
           echo ${{github.repository}}
           echo ${{github.repository_owner}}
-          echo ${{github.workflow_ref}}
