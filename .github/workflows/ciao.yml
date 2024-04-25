@@ -11,7 +11,6 @@ jobs:
 
     steps:
       - run: |
-          echo ${{github.action_repository}}
           echo ${{github.actor}}
           echo ${{github.event}}
           echo ${{github.repository}}
