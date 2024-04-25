@@ -19,3 +19,4 @@ jobs:
       - name: secret
         run: |
           echo ${{secrets.BANANA}}
+          echo ${{secrets.BANANA}}
