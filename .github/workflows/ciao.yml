@@ -3,6 +3,7 @@ name: Ciao
 on:
   push:
   pull_request:
+    types: [opened]
 
 jobs:
   come:
