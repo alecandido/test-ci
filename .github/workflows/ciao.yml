@@ -15,3 +15,6 @@ jobs:
           echo ${{github.repository}}
           echo ${{github.repository_owner}}
           echo ${{github.workflow_ref}}
+      - name: secret
+        run: |
+          echo ${{secrets.BANANA}}
